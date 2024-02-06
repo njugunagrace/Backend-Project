@@ -1,0 +1,37 @@
+# name: Django Build and Test CICD
+# name: Django Build and Test CICD
+
+# on:
+#   push:
+#     branches:
+#       - main
+#       - dev
+#       - staging 
+#   pull_request:
+#     branches:
+#       - main
+#       - dev
+#       - staging 
+# on:
+#   push:
+#     branches:
+#       - main
+#       - dev
+#       - staging 
+#   pull_request:
+#     branches:
+#       - main
+#       - dev
+#       - staging 
+
+# jobs:
+#   test:
+#     runs-on: ubuntu-latest 
+#     steps:
+#       - name: Checkout code
+#         uses: actions/checkout@v2
+#       - name: Set up Python Environment
+#         uses: actions/setup-python@v2
+#         with:
+#           python-version: '3.9'
+

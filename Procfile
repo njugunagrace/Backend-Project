@@ -1,0 +1,1 @@
+web: gunicorn mwanga.wsgi --log-file -
